@@ -1,0 +1,11 @@
+{
+    "cmake.configureArgs": [
+        "-DBUILD_SHARED_LIBS=ON",
+        "-DTHRILL_BUILD_TESTS=ON",
+        "-DTHRILL_BUILD_EXAMPLES=ON",
+        "-DTHRILL_BUILD_EXAMPLES_MORE=OFF",
+        "-Wno-dev",
+        "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache"
+    ],
+    "clangd.path": "/usr/local/bin/clangd"
+}

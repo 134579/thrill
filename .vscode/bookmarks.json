@@ -1,0 +1,109 @@
+{
+	"files": [
+		{
+			"path": "thrill/net/dispatcher_thread.cpp",
+			"bookmarks": [
+				{
+					"line": 21,
+					"column": 35,
+					"label": "消息处理线程"
+				}
+			]
+		},
+		{
+			"path": "thrill/api/dia_base.cpp",
+			"bookmarks": [
+				{
+					"line": 301,
+					"column": 23,
+					"label": "用BFS找哪些DIANode要执行, 从叶子节点开始"
+				}
+			]
+		},
+		{
+			"path": "thrill/api/inner_join.hpp",
+			"bookmarks": [
+				{
+					"line": 319,
+					"column": 46,
+					"label": "左表回调"
+				},
+				{
+					"line": 330,
+					"column": 47,
+					"label": "右表回调"
+				},
+				{
+					"line": 568,
+					"column": 25,
+					"label": "join所有缓存的数据"
+				},
+				{
+					"line": 709,
+					"column": 15,
+					"label": "Join API"
+				}
+			]
+		},
+		{
+			"path": "thrill/api/dia_node.hpp",
+			"bookmarks": [
+				{
+					"line": 122,
+					"column": 33,
+					"label": "向后继节点发送数据"
+				},
+				{
+					"line": 132,
+					"column": 55,
+					"label": "调child的StartPreOp"
+				},
+				{
+					"line": 138,
+					"column": 26,
+					"label": "调PushData"
+				},
+				{
+					"line": 142,
+					"column": 54,
+					"label": "调child的StopPreOp"
+				},
+				{
+					"line": 146,
+					"column": 48,
+					"label": "具体发送每条数据， 调用每个child的callback"
+				},
+				{
+					"line": 180,
+					"column": 33,
+					"label": "图上的后继节点"
+				}
+			]
+		},
+		{
+			"path": "thrill/api/context.cpp",
+			"bookmarks": [
+				{
+					"line": 418,
+					"column": 23,
+					"label": "本地执行"
+				},
+				{
+					"line": 946,
+					"column": 62,
+					"label": "main中开始执行"
+				}
+			]
+		},
+		{
+			"path": "thrill/api/dia_base.hpp",
+			"bookmarks": [
+				{
+					"line": 178,
+					"column": 31,
+					"label": ""
+				}
+			]
+		}
+	]
+}
